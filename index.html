@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content='IE=edge'>
+    <title>موقع ويب</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link rel="icon" href="ico.jpg">
+    <style type="text/css"></style>
+    <style>
+    	*{
+    	margin: 0;
+    	padding: 0;
+    	}
+    	header {
+    	width: 100%;
+    	height: 60px;
+    	background-color: white;
+    	box-shadow: 0px 0px 12px black;
+    	position: fixed;
+    	z-index: 1;
+    	}
+    	header button {
+    	width: 100px;
+    	padding: 10px;
+    	margin-top: 10px;
+    	border: none;
+    	background: none;
+    	outline: none;
+    	font-size: 18px;
+    	box-shadow: 0px 0px 6px whitesmoke;
+    	font-family: 'Dancing Script', cursive;
+    	font-weight: bold;
+    	transition: 0.7s;
+    	}
+    	header button:hover{
+    	color: #07689f;
+    	box-shadow: 0px 0px 10px silver;
+    	}
+    	header img{
+    	width: 75px;
+    	float: left;
+    	margin-top: 1px;
+    	margin-left: 11px;
+    	}
+    	#im{
+    	width: 100%;
+    	height: 400px;
+    	margin-top: 67px;
+    	}
+    	marquee{
+    	position:absolute;
+    	top: 254px;
+    	left: 410px;
+    	color: white;
+    	text-align: center;
+    	font-size: 28px;
+    	width: 120px;
+    	height:82px;
+    	font-family: 'Dancing Script', cursive;
+    	}
+    	aside{
+    	width: 13%;
+    	height: 400px;
+    	background: white;
+    	float: right;
+    	}
+    	aside button {
+    	margin-top: -4px;
+    	width: 120px;
+    	height: 49px;
+    	font-size: 18px;
+    	font-family: 'Roboto Mono', monospace;
+    	font-weight:bold;
+    	background:none;
+    	border:none;
+    	border-bottom:1px solid #407088;
+    	border-left:1px solid #407088;
+    	outline:none;
+    	transition: 0.8s;
+    	}
+    	aside button:hover{
+    	color: white;
+    	background-color:#ff4b5c;
+    	
+    	}
+    	main {
+    	width:87%;
+    	height: 400px;
+    	background: white;
+    	margin-top: -4px;
+    	float: left;
+    	}
+    	main h2{
+    	font-size: 30px;
+    	font-weight: bold;
+    	font-family: 'Roboto Mono', monospace;
+    	margin-top: 30px;
+    	}
+    	main img{
+    	width: 90px;
+    	margin-top: 40px;
+    	}
+    	main p{
+    	font-size: 16px;
+    	font-weight: bold;
+    	font-family: 'Roboto Mono', monospace;
+    	color: gray;
+    	margin-top: 50px;
+    	}
+    	#d1 div{
+    	width: 274px;
+    	height: 420px;
+    	border: 1px solid white;
+    	font-size: 16px;
+    	font-family: 'Roboto Mono', monospace;
+    	font-weight: bold;
+    	box-shadow: 1px 1px 12px gray;
+    	float: left;
+    	margin-left: 40px;
+    	margin-top: 60px;
+    	border-radius: 12px;
+    	}
+    	footer {
+    	width: 100%;
+    	height: 360px;
+    	background-color: black;
+    	margin-top: 1000px;
+    	clear: both;
+    	box-shadow: 0px 0px 30px black;
+    	}
+    	footer div {
+    	font-size: 19px;
+    	margin-top: 10px;
+    	font-family: 'Share Tech Mono', monospace;
+    	font-weight: bold;
+    	text-align: left;
+    	margin-left: 35px;
+    	color: red;
+    	float: left;
+    	}
+    	footer div a {
+    	text-decoration: none;
+    	color: white;
+    	}
+    	footer div a:hover {
+    	color: #ff4b5c;
+    	}
+    	footer .content-footer {
+    	margin-left: 150px;
+    	padding: 2rem 8%;
+    	text-align:center;
+    	background-color: #171a1c;
+    	color: white;
+    	display: flex;
+    	flex-direction: column;
+    	align-items: center;
+    	justify-content: center;
+    	}
+    	
+    	footer .content-footer p {
+    	color: #ffffff;
+    	text-align: center;
+    	width: 500px;
+    	margin-top: 1rem;
+    	}
+    	
+    	footer .content-footer .end {
+    	color: #ff274b;
+    	margin-top: 1rem;
+    	}
+    </style>
+</head>
+<body>
+	<header>
+		<div>
+			<img src="lo1.jpg" alt="logo">
+		</div>
+		<center>
+			<div>
+				<button>Contact</button>
+				<button>Night mode</button>
+				<button>Learn</button>
+				<button>Queries</button>
+				<button>Code editor</button>
+				<button>Home</button>
+			</div>
+		</center>
+	</header>
+	<img id="im" src="im12.jpg" alt="imag">
+	<marquee direction="up" scrollamount="1">Welcome to Code Steel, where we will meet your needs.</marquee>
+	<aside>
+		<button>HTML</button>
+		<button>CSS</button>
+		<button>JAVASCRIPT</button>
+		<button>PHP</button>
+		<button>PYTHON</button>
+		<button>RUBY</button>
+		<button>SQL</button>
+		<button>PERL</button>
+	</aside>
+	<main> 
+		<center>
+			<h2>Welcome to Code-Steel</h2>
+			<img src="log7.png" alt="mini logo"> 
+			<p> 
+				Welcome to Code Steel for programming and providing services.<br>
+				The best site that offers high quality services and advantages<br>
+				Our site gives you various advantages in many fields, especially in the field of technology in general.<br>
+				We are working to provide you with the best and then the best.<br>
+				If you are interested, we are waiting for you to contact us<br>
+			</p>
+		</center>
+	</main>
+	
+	<div id=d1>
+		<div>
+			<center>
+				<h3>Cources</h3>
+				<img id="h" src="html.png" width="270" height="300" alt="html">
+				<p>Htmel is an important and easy language that specializes in the web</p> 
+			</center>
+		</div>
+		<div>
+			<center>
+				<h3>Cources</h3>
+				<img  id="c" src="c.png"  width="200" height="300" alt="html">
+				<p>Css is a modern language offers the site a wonderful and attractive appearance</p> 
+			</center>
+		</div>
+		<div>
+			<center>
+				<h3>Cources</h3>
+				<img id="j" src="js1.png" width="280" height="280" alt="html">
+				<p>Js is the language of buttons and can create buttons inside the site</p> 
+			</center>
+		</div>
+	</div>
+	
+	<footer>
+		<center>
+			<div>
+				<div>
+					<ul>
+						<li><a href="">Programming languages</a></li><br>
+						<li><a href="">HTML</a></li><br>
+						<li><a href="">CSS</a></li><br>
+						<li><a href="">JAVASCRIPR</a></li><br>
+						<li><a href="">PHP</a></li><br>
+						<li><a href="">RUBY</a></li><br>
+						<li><a href="">PYTHON</a></li><br>
+						<li><a href="">SQL</a></li><br>
+					</ul>
+				</div>
+			</div>
+			<div>
+				<div>
+					<ul>
+						<li><a href="">Creation List projects</a></li><br>
+						<li><a href="">artificial intelligence</a></li><br>
+						<li><a href="">Kurdish editors</a></li><br>
+						<li><a href="">JAVASCRIPR</a></li><br>
+						<li><a href="">Databases</a></li><br>
+						<li><a href="">tools</a></li><br>
+						<li><a href="">Personal pages</a></li><br>
+						<li><a href="">And others</a></li><br>
+					</ul>
+				</div>
+			</div>
+			<div>
+				<div>
+					<ul>
+						<li><a href="">cources</a></li><br>
+						<li><a href="">HTML</a></li><br>
+						<li><a href="">CSS</a></li><br>
+						<li><a href="">JAVASCRIPR</a></li><br>
+						<li><a href="">PHP</a></li><br>
+						<li><a href="">RUBY</a></li><br>
+						<li><a href="">PYTHON</a></li><br>
+						<li><a href="">SQL</a></li><br>
+					</ul>
+				</div>
+			</div>
+			<div>
+				<div>
+					<ul>
+						<li><a href="">Social media</a></li><br>
+						<li><a href="">Youtube</a></li><br>
+						<li><a href="">Facebook</a></li><br>
+						<li><a href="">Twiter</a></li><br>
+						<li><a href="">GitHup</a></li><br>
+						<li><a href="">Instagram</a></li><br>
+						<li><a href="">Whatssap</a></li><br>
+						<li><a href="">Gmail</a></li><br>
+					</ul>
+				</div>
+			</div>
+		</center>
+		
+			<div class="content-footer">
+			<h2>CodeSteel</h2>
+			<p>I hope this is convincing to you, and thank you!</p>
+			<p class="end">The code-steel developer was with you.</p><br>
+			<p>&copy; 2023</p>
+	</footer>
+</body>
+</html>
